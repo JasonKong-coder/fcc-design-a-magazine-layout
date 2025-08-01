@@ -1,17 +1,21 @@
-# 📖 Magazine Layout
+# freeCodeCamp - Magazine Layout Project
 
-A responsive magazine-style layout built using CSS Grid.  
-This is a solution to the "Magazine Cover" project from freeCodeCamp's Responsive Web Design certification.
+This is my second Responsive Web Design project for the freeCodeCamp certification.
 
-## 🚀 Built With
-- HTML5
-- CSS Grid
+## 🌟 Project Overview
+
+A magazine-style layout using **CSS Grid** to organize the cover title, feature article, two smaller articles, and an image.
+
+### ✅ Requirements Covered:
+- Grid layout using `grid-template-areas`, `grid-template-columns`, and `grid-template-rows`
+- Proper use of `<main>`, `<header>`, `<section>`, `<article>`, and `<img>`
+- Responsive design with `viewport` meta tag
+- Semantic HTML structure
 
 ## 🔗 Live Preview
-[Click here to view](https:JasonKong-coder//.github.io/fcc-magazine-layout/)
+[View on GitHub Pages](https://jasonkong-coder.github.io/fcc-design-a-magazine-layout/)
 
-## 🎯 Challenge Instructions
-This project follows the freeCodeCamp requirement to:
-- Use `grid-template-areas` to arrange elements
-- Include 4 sections and a title
-- Have an image and multiple articles in a magazine-like layout
+## 🧠 What I Learned
+- How to structure a responsive magazine layout
+- How to apply grid area naming and template rows/columns
+- Improved understanding of `CSS Grid` for layout design
