@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.magazine-cover {
+  display: grid;
+  grid-template-areas: 
+  "title title title"
+  "feature-article feature-article cover-image"
+  "small-article1 small-article2 cover-image";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr 1fr;
+  gap: 10px;
+}
+
+.title {
+  grid-area: title;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6c4ec2;
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.feature-article {
+  grid-area: feature-article;
+}
+
+.cover-image {
+  grid-area: cover-image;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-article, .small-article1, .small-article2 {
+  background-color: #faf5ff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.feature-article h2, 
+.small-article1 h3, 
+.small-article2 h3 {
+  color: #4b2991;
+}
+
+.cover-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+  .magazine-cover {
+    grid-template-areas: 
+      "title"
+      "cover-image"
+      "feature-article"
+      "small-article1"
+      "small-article2";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
