@@ -19,3 +19,9 @@ A magazine-style layout using **CSS Grid** to organize the cover title, feature 
 - How to structure a responsive magazine layout
 - How to apply grid area naming and template rows/columns
 - Improved understanding of `CSS Grid` for layout design
+
+## 📄 Disclaimer
+
+This project is for **learning and showcase purposes only**.  
+All characters, names, and images related to *Genshin Impact* and **Keqing** belong to **HoYoverse (miHoYo)**.  
+No copyright infringement intended.
